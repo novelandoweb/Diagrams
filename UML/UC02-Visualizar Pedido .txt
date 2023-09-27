@@ -1,0 +1,32 @@
+[CASO USO] 
+
+Nome: Visualizar Pedido Obra
+
+[OBJETIVO]
+
+O autor visualiza se seu pedido foi aprovado ou rejeitado
+
+[PRÉ-CONDIÇÕES]
+
+O autor deve ter solicitado um projeto de Obra (UC01)
+
+[FLUXO PRINCIPAL]
+
+1. O autor visualiza os projetos de obra [A1 - Nenhum projeto de obra] 
+
+2. O sistema exibe a listagem de obra, já com a situação [APROVADA/REJEITADA]
+
+3. O usuário seleciona o projeto de obra
+
+4. O sistema exibe a obra selecionada [A2 - Obra rejeitada]
+
+
+[FLUXO ALTERNATIVOS]
+
+A1 - Nenhum projeto de obra
+
+   1) O sistema exibe que o autor não tem nenhum pedido cadastrado no sistema
+
+A2 - Obra Rejeitada
+
+   1) O sistema exibe o projeto com o motivo da rejeição em modo apenas leitura

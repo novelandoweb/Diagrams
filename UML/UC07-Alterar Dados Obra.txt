@@ -1,0 +1,33 @@
+[CASO USO] 
+
+Nome: Alterar dados da obra
+
+[OBJETIVO]
+
+O autor tem acesso aos dados completos da obra e pode alterá-lo ou complementá-lo
+
+[PRÉ-CONDIÇÕES]
+
+A obra deve ter sido criada
+
+[FLUXO PRINCIPAL]
+
+1. O autor acessa os dados completos da obra 
+
+2. O autor pode alterar os dados fornecidos
+
+3. O autor complementa os dados do projeto da obra [A1 - Dados sem alteração]
+
+4. O autor salva as alterações [A2 - Dados obrigatórios]
+
+
+[FLUXO ALTERNATIVOS]
+
+A1 - Dados sem alteração
+
+   1) Os dados que o autor não pode alterar devem estar visiveis apenas como leitura
+
+A2 - A2 - Dados obrigatórios
+
+   1) O sistema rejeita a alteração se o dadp obrigatório for apagado ou não preenchido
+   2) O sistema exibe mensagem na tela

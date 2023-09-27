@@ -1,0 +1,26 @@
+[CASO USO]
+
+Nome: Solicitar Projeto da Obra
+
+[OBJETIVO]
+
+O autor solicita que seja adicionada uma nova obra
+
+[PRÉ-CONDIÇÕES]
+
+O usuário deve ser um autor
+
+[FLUXO PRINCIPAL]
+
+1. O Autor solicita o projeto de uma obra [A1 - Caso exista obra com o mesmo nome] 
+
+2. O Autor cadastra os dados básicos da uma obra
+
+3. O autor submete o projeto para análise
+
+
+[FLUXO ALTERNATIVOS]
+
+A1 - Caso exista obra com o mesmo nome (NÃO)
+
+   1) O sistema solicita que o Autor escolha um novo nome

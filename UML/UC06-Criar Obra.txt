@@ -1,0 +1,26 @@
+[CASO USO] 
+
+Nome: Criar Obra
+
+[OBJETIVO]
+
+Criar a obra do autor, dando a ele acesso, assim como anexar um avaliador obrigatório da obra
+
+[PRÉ-CONDIÇÕES]
+
+O avaliador deve ter aprovado o projeto de obra (UC04-Aprovar Projeto)
+
+[PÓS-CONDIÇÕES]
+
+A obra deve ter acesso a obra e o avaliador deve ser anexado a obra
+
+[FLUXO PRINCIPAL]
+
+1. A obra é criada, importando os dados básicos do projeto 
+
+2. E dado acesso ao autor
+
+2. O Avaliador da obra é adicionado como principal da obra
+
+
+[FLUXO ALTERNATIVOS]

@@ -1,0 +1,26 @@
+[CASO USO] 
+
+Nome:
+
+[OBJETIVO]
+
+Descrição
+
+[PRÉ-CONDIÇÕES]
+
+Deve existir, pódendo ser um estado ou outro caso se uso
+
+[FLUXO PRINCIPAL]
+
+1. Descrição de Algo que o Sistema faz ou vai ocorrer [A1 - Fluxo alternativo, caso exista] 
+
+2. Descrição de Algo que o Sistema faz ou vai ocorrer
+
+N. Descrição de Algo que o Sistema faz ou vai ocorrer
+
+
+[FLUXO ALTERNATIVOS]
+
+A1 - Descrição do Fluxo Alternativo (NÃO)
+
+   1) Ação caso ocorra

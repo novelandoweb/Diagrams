@@ -1,0 +1,35 @@
+[CASO USO] 
+
+Nome: Avaliar Projeto Obra
+
+[OBJETIVO]
+
+O Avaliador analisa se a obra cumpre os requisitos de publicação e APROVA/REJEITA o pedido
+de obra do autor
+
+[PRÉ-CONDIÇÕES]
+
+O usuário deve ser avaliador e deve selecionar um pedido de obra de um autor para avaliar 
+
+[PÓS-CONDIÇÕES]
+
+A obra deve ser avaliada ao final do processo e deve ser executado o UC04 ou UC05 
+
+[FLUXO PRINCIPAL]
+
+1. O Avaliador seleciona um Pedido de Obra 
+
+2. O Avaliador adiciona um Analise da Obra
+
+3. O Avaliador seleciona se aprova ou rejeita a obra [A1 - Obra sem análise para o autor ]
+
+4. O sistema envia um email sobre a avaliação ao autor.
+
+
+
+[FLUXO ALTERNATIVOS]
+
+A1 - Obra sem análise para o autor
+
+   1) O sistema solicita que o Avaliador preencha a análise
+   2) O sistema rejeita a ação de avaliação
