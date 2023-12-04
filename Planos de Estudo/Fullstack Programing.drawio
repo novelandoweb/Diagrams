@@ -1,10 +1,10 @@
-<mxfile host="Electron" modified="2023-10-29T23:51:14.152Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="spMTfTFiFrpl3p3XwKuX" version="21.6.8" type="device">
+<mxfile host="Electron" modified="2023-12-04T01:00:04.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="t0-xLPicnE6oK2Nxu31b" version="21.6.8" type="device">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1583" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1350" value="Reactive BD" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=20;fontColor=#FFFFFF;align=center;strokeWidth=3;fillColor=#1699D3;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="1350" value="Reactive Server" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=20;fontColor=#FFFFFF;align=center;strokeWidth=3;fillColor=#1699D3;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="518.5" y="276.5" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1351" value="Framework&lt;br&gt;JavaScript" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=20;fontColor=#FFFFFF;align=center;strokeWidth=3;fillColor=#F08705;strokeColor=none;gradientColor=none;" parent="1" vertex="1">
@@ -61,13 +61,13 @@
             <mxPoint x="281" y="226.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1367" value="" style="rounded=1;fillColor=#64BBE2;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="1367" value="Apache Kafka" style="rounded=1;fillColor=#64BBE2;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="439.5" y="478" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1368" value="R2DBC" style="rounded=1;strokeWidth=3;shadow=0;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="1368" value="ORM Reactive" style="rounded=1;strokeWidth=3;shadow=0;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="319.5" y="341.5" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1369" value="Postgres Reactive" style="rounded=1;fillColor=#e3c800;strokeColor=#B09500;strokeWidth=3;shadow=0;html=1;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="1369" value="Panache Reactive" style="rounded=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="318.5" y="271.5" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1370" value="Compass" style="rounded=1;fillColor=#64BBE2;strokeColor=none;strokeWidth=3;shadow=0;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
@@ -712,7 +712,7 @@
         <mxCell id="1521" value="REST" style="rounded=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="539.5" y="721.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1522" value="Project Reactive" style="rounded=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="1522" value="Quarkus&amp;nbsp;Reactive" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="67" y="641.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1523" value="Swagger JWT&amp;nbsp;" style="rounded=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" parent="1" vertex="1">
@@ -736,7 +736,7 @@
             <mxPoint x="-1398" y="-303.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1529" value="Spring Batch" style="rounded=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="1529" value="Quarkus" style="rounded=1;strokeWidth=3;shadow=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="731.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1530" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#A29DC5;html=1;" parent="1" source="1516" target="1518" edge="1">
@@ -864,28 +864,28 @@
             <mxPoint x="2030" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1542" value="Semântico" style="rounded=1;strokeWidth=3;shadow=0;html=1;" vertex="1" parent="1">
+        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1542" value="Semântico" style="rounded=1;strokeWidth=3;shadow=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="1514" y="601.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1543" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#F08E81;html=1;" edge="1" parent="1" source="1415" target="jwt4sMkHrJ_ZbVnHKe-m-1542">
+        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1543" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#F08E81;html=1;" parent="1" source="1415" target="jwt4sMkHrJ_ZbVnHKe-m-1542" edge="1">
           <mxGeometry x="31" y="106.5" width="100" height="100" as="geometry">
             <mxPoint x="1637" y="571.5" as="sourcePoint" />
             <mxPoint x="1620" y="623" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1544" value="Responsivo" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1544" value="Responsivo" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="1660" y="600" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1546" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#F08E81;html=1;" edge="1" parent="1" source="1415" target="jwt4sMkHrJ_ZbVnHKe-m-1544">
+        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1546" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#F08E81;html=1;" parent="1" source="1415" target="jwt4sMkHrJ_ZbVnHKe-m-1544" edge="1">
           <mxGeometry x="31" y="106.5" width="100" height="100" as="geometry">
             <mxPoint x="1675" y="570" as="sourcePoint" />
             <mxPoint x="1613" y="612" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1547" value="Animations" style="rounded=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1547" value="Animations" style="rounded=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;shadow=0;html=1;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="2090" y="306.5" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1548" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#F08E81;html=1;" edge="1" parent="1" source="jwt4sMkHrJ_ZbVnHKe-m-1547" target="1416">
+        <mxCell id="jwt4sMkHrJ_ZbVnHKe-m-1548" value="" style="edgeStyle=none;endArrow=none;strokeWidth=3;strokeColor=#F08E81;html=1;" parent="1" source="jwt4sMkHrJ_ZbVnHKe-m-1547" target="1416" edge="1">
           <mxGeometry x="31" y="106.5" width="100" height="100" as="geometry">
             <mxPoint x="1990" y="256.5" as="sourcePoint" />
             <mxPoint x="2054" y="306.5" as="targetPoint" />
